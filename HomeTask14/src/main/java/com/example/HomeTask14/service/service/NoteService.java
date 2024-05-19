@@ -1,7 +1,7 @@
-package com.example.HomeTask14.service;
+package com.example.HomeTask14.service.service;
 
-import com.example.HomeTask14.entity.Note;
-import com.example.HomeTask14.exeption.NoteNotFoundException;
+import com.example.HomeTask14.data.entity.Note;
+import com.example.HomeTask14.service.exeption.NoteNotFoundException;
 
 import java.util.List;
 import java.util.Optional;

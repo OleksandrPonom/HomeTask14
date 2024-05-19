@@ -1,4 +1,4 @@
-package com.example.HomeTask14.exeption;
+package com.example.HomeTask14.service.exeption;
 
 import java.util.UUID;
 

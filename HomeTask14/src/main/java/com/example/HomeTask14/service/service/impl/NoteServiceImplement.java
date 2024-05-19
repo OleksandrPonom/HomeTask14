@@ -1,8 +1,9 @@
-package com.example.HomeTask14.service;
+package com.example.HomeTask14.service.service.impl;
 
-import com.example.HomeTask14.entity.Note;
-import com.example.HomeTask14.exeption.NoteNotFoundException;
-import com.example.HomeTask14.repository.NoteFakeRepository;
+import com.example.HomeTask14.data.entity.Note;
+import com.example.HomeTask14.service.exeption.NoteNotFoundException;
+import com.example.HomeTask14.data.repository.NoteFakeRepository;
+import com.example.HomeTask14.service.service.NoteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

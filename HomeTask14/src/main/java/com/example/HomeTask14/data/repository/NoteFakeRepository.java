@@ -1,6 +1,6 @@
-package com.example.HomeTask14.repository;
+package com.example.HomeTask14.data.repository;
 
-import com.example.HomeTask14.entity.Note;
+import com.example.HomeTask14.data.entity.Note;
 import org.springframework.stereotype.Component;
 
 import java.util.*;
