@@ -2,9 +2,9 @@ name: Build Java app
 
 on:
   push: 
-    branches: [ 'alex' ]
+    branches: [ 'master' ]
   pull_request:
-    branches: [ 'alex' ]  
+    branches: [ 'master' ]  
 
 jobs:
   dependency-submission:
