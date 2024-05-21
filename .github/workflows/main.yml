@@ -1,0 +1,25 @@
+name: BILD_TEST
+
+on:
+  push:
+  pull_request:
+
+env:
+  prj_name: Calculator
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up JDK 17
+      uses: actions/checkout@v4
+      with:
+        java-version: '21'
+        distribution: 'temurin'
+
+    - name: Grant execute permission for gradlew
+      run: chmod +x ./gradlew
+
+    - name: Build and test with Gradle
+      run: ./gradlew build
