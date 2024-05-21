@@ -8,6 +8,7 @@ import java.util.UUID;
 @Data
 @NoArgsConstructor
 public class Note {
+
 	private UUID id;
 	private String title;
 	private String content;
